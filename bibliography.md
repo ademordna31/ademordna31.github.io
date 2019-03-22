@@ -14,7 +14,7 @@ Eligon, J., & Nolan, K. (2017, December 21). Angry After Milwaukee Police Shooti
 
 EXCLUSIVE: Website targeting black Americans appears to be elaborate Russian propaganda effort. (2017, October 12). Retrieved March 21, 2019, from https://thinkprogress.org/black-matters-us-site-90625b18f262/
 
-Exposing Russia’s Effort to Sow Discord Online: The Internet Research Agency and Advertisements | Permanent Select Committee on Intelligence. (n.d.). Retrieved March 21, 2019, from https://intelligence.house.gov/social-media-content/
+Exposing Russia’s Effort to Sow Discord Online: The Internet Research Agency and Advertisements Permanent Select Committee on Intelligence. (n.d.). Retrieved March 21, 2019, from https://intelligence.house.gov/social-media-content/
 
 Fausset, R. (2017, December 21). Police Killing of Unarmed Georgia Man Leaves Another Town in Disbelief. The New York Times. Retrieved from https://www.nytimes.com/2015/03/11/us/chamblee-georgia-police-shooting-anthony-hill.html
 
