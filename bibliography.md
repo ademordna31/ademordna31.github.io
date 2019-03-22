@@ -22,6 +22,8 @@ Feinberg, A. (2014, October 30). The Birth of the Internet Troll. Retrieved Marc
 
 Friedersdorf, C. (2015, April 22). The Brutality of Police Culture in Baltimore. Retrieved March 21, 2019, from https://www.theatlantic.com/politics/archive/2015/04/the-brutality-of-police-culture-in-baltimore/391158/
 
+Inside Russia’s Social Media War on America. (2017, May 18). Retrieved March 21, 2019, from http://time.com/4783932/inside-russia-social-media-war-america/
+
 Internet Trolls. (2006, December 10). Retrieved March 21, 2019, from https://web.archive.org/web/20061210043940/http://members.aol.com:80/intwg/trolls.htm
 
 Levin, S. (2017, September 30). Did Russia fake black activism on Facebook to sow division in the US? The Guardian. Retrieved from https://www.theguardian.com/technology/2017/sep/30/blacktivist-facebook-account-russia-us-election
