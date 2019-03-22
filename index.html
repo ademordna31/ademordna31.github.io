@@ -14,91 +14,6 @@ layout: default
     line-height: 1;
     letter-spacing: -1px;
   }
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {  
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 1200px){
-  .modal-content {
-    width: 100%;
-  }
-}
 
 
 </style>
@@ -184,38 +99,9 @@ layout: default
 <p>Furthermore, building upon the advertisement tagging by students and faculty at the Department of Communication at the University of Maryland, an analysis of the tags can be performed in order to understand which advertisements did not overlap in terms of content and message. Advertisements in this dataset were tagged according to the content with the advertisement. This being the case, an investigation into which tags do and do not overlap can give us meaningful information about the advertisements. In particular, noting which tags do not overlap might suggest an intentional effort to create disparity between communities.</p>
 
 <figure>
-<img id="myImg" src="magaBlacktivist.png" alt="MAGA and Blacktivist tags compared in a network graph."/>
+<img id="mB" src="magaBlacktivist.png" alt="MAGA and Blacktivist tags compared in a network graph."/>
 <figcaption>MAGA and Blacktivist tags compared in a network graph.</figcaption>
 </figure>
-
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
 
 <p>Building on the Blacktivist example, a comparison of tags associated with Blacktivist was compared to the set of tags appearing with the MAGA tag. The resulting network graph shows a number of tags to the left and right of the circle of connected tags; these are the tags associated with either MAGA or Blactivist. Interestingly, tags such as religion, refugees, illegals, borders, bluelivesmatter (pro law enforcement), terrorism, texas, confederate flag, being patriotic, 2nd amendment, and many more appear only with the MAGA tag. Tags such as black excellence, brown power, self made, man, intoxicants, and a number of tags related to media only appeared with the Blacktivist tag. These differences suggest that content was specifically created in order to appeal to different values and further polarize those communities.</p>
 
@@ -224,70 +110,14 @@ span.onclick = function() {
 <figcaption>Tags connected to MAGA but NOT to Blacktivist.</figcaption>
 </figure>
 
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="MAGA1">
-  <div id="caption"></div>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('MAGA');
-var modalImg = document.getElementById("MAGA1");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
 
 <br>
 
 <figure>
-<img id="blacktivist" src="Blacktivist.png" alt="Tags connected to Blacktivist but NOT to MAGA."/>
+<img id="blacktivist" src="/Blacktivist.png"  target="_blank" alt="Tags connected to Blacktivist but NOT to MAGA."/>
 <figcaption>Tags connected to Blacktivist but NOT to MAGA.</figcaption>
 </figure>
 
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="blacktivist1">
-  <div id="caption"></div>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('blacktivist');
-var modalImg = document.getElementById("blacktivist1");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
 
 <br>
 
